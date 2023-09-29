@@ -17,7 +17,7 @@ const essentials: Array<Props> = [
   {
     id: uniqueId(),
     title: 'Real-time Notifications',
-    description: 'Get notified of everything happening',
+    description: 'Get notified of everything happening in the family.',
     image: '/svg/boxploot.svg',
   },
   {
