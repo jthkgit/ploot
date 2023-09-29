@@ -58,7 +58,7 @@ export default function Essentials({ slidesPerView }: { slidesPerView: number })
             <div className="flex items-center ">
               <div>
                 <button
-                  className="w-10 rounded-xl bg-neutral-600 p-2 text-primary-500 "
+                  className="w-10 rounded-xl bg-neutral-600 p-2 text-primary-500 hover:bg-accent-1-500 hover:text-white"
                   onClick={handlePrevPage}
                 >
                   {'<'}
@@ -67,7 +67,7 @@ export default function Essentials({ slidesPerView }: { slidesPerView: number })
 
               <div className="p-2">
                 <button
-                  className="w-10 rounded-xl bg-neutral-600 p-2 pl-2 text-primary-500 "
+                  className="w-10 rounded-xl bg-neutral-600 p-2 pl-2 text-primary-500 hover:bg-accent-1-500 hover:text-white"
                   onClick={handleNextPage}
                 >
                   {'>'}

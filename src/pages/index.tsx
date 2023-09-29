@@ -383,7 +383,7 @@ export default function Home(): JSX.Element {
         <Testimonial slidesPerView={isMobile ? 1 : 3} />
 
         {/* Level 10 */}
-        <NewsAndBlog />
+        {/* <NewsAndBlog /> */}
       </main>
 
       {/* Footer */}

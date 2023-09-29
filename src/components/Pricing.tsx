@@ -12,21 +12,21 @@ export default function Pricing() {
         </span>
       ),
     },
-    {
-      title: 'Ploot',
+    // {
+    //   title: 'Ploot',
 
-      price: '19.99HKD/mo',
-      description: (
-        <span>
-          <strong>Ploot</strong> plan offers advanced features such as savings goals, budget
-          tracking, and customized financial education for families and children.
-        </span>
-      ),
-    },
+    //   price: '19.99HKD/mo',
+    //   description: (
+    //     <span>
+    //       <strong>Ploot</strong> plan offers advanced features such as savings goals, budget
+    //       tracking, and customized financial education for families and children.
+    //     </span>
+    //   ),
+    // },
     {
       title: 'Ploot+',
 
-      price: '49.99HKD/mo',
+      price: 'TBD',
       description: (
         <span>
           <strong>Ploot+</strong> plan offers premium benefits such as cashback rewards, financial
@@ -48,7 +48,7 @@ export default function Pricing() {
           </h1>
         </div>
         {/* Pricing Cards Container */}
-        <div className="grid grid-cols-1 gap-4 lg:grid-cols-3">
+        <div className="grid grid-cols-1 gap-4 lg:grid-cols-2">
           {/* Pricing Cards */}
           {pricingPlans.map((plan, index) => (
             <div
