@@ -1,0 +1,142 @@
+@import 'tailwindcss/base';
+
+/* Outfit font family and weights - Start */
+@font-face {
+  font-family: 'Outfit';
+  font-style: normal;
+  font-weight: 100;
+  src: url('/fonts/Outfit/Outfit-Thin.woff2') format('woff2');
+  font-display: block;
+}
+
+@font-face {
+  font-family: 'Outfit';
+  font-style: normal;
+  font-weight: 200;
+  src: url('/fonts/Outfit/Outfit-ExtraLight.woff2') format('woff2');
+  font-display: block;
+}
+
+@font-face {
+  font-family: 'Outfit';
+  font-style: normal;
+  font-weight: 300;
+  src: url('/fonts/Outfit/Outfit-Light.woff2') format('woff2');
+  font-display: block;
+}
+
+@font-face {
+  font-family: 'Outfit';
+  font-style: normal;
+  font-weight: 400;
+  src: url('/fonts/Outfit/Outfit-Regular.woff2') format('woff2');
+  font-display: block;
+}
+
+@font-face {
+  font-family: 'Outfit';
+  font-style: normal;
+  font-weight: 500;
+  src: url('/fonts/Outfit/Outfit-Medium.woff2') format('woff2');
+  font-display: block;
+}
+
+@font-face {
+  font-family: 'Outfit';
+  font-style: normal;
+  font-weight: 600;
+  src: url('/fonts/Outfit/Outfit-SemiBold.woff2') format('woff2');
+  font-display: block;
+}
+
+@font-face {
+  font-family: 'Outfit';
+  font-style: normal;
+  font-weight: 700;
+  src: url('/fonts/Outfit/Outfit-Bold.woff2') format('woff2');
+  font-display: block;
+}
+
+@font-face {
+  font-family: 'Outfit';
+  font-style: normal;
+  font-weight: 800;
+  src: url('/fonts/Outfit/Outfit-ExtraBold.woff2') format('woff2');
+  font-display: block;
+}
+
+@font-face {
+  font-family: 'Outfit';
+  font-style: normal;
+  font-weight: 900;
+  src: url('/fonts/Outfit/Outfit-Black.woff2') format('woff2');
+  font-display: block;
+}
+/* Outfit font family and weights - End */
+
+/* Manrope font family and weights - Start */
+@font-face {
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 100;
+  src: url('/fonts/Manrope/Manrope-Light.woff2') format('woff2');
+  font-display: block;
+}
+
+@font-face {
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 200;
+  src: url('/fonts/Manrope/Manrope-ExtraLight.woff2') format('woff2');
+  font-display: block;
+}
+
+@font-face {
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 300;
+  src: url('/fonts/Manrope/Manrope-Light.woff2') format('woff2');
+  font-display: block;
+}
+
+@font-face {
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 400;
+  src: url('/fonts/Manrope/Manrope-Regular.woff2') format('woff2');
+  font-display: block;
+}
+
+@font-face {
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 500;
+  src: url('/fonts/Manrope/Manrope-Medium.woff2') format('woff2');
+  font-display: block;
+}
+
+@font-face {
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 600;
+  src: url('/fonts/Manrope/Manrope-SemiBold.woff2') format('woff2');
+  font-display: block;
+}
+
+@font-face {
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 700;
+  src: url('/fonts/Manrope/Manrope-Bold.woff2') format('woff2');
+  font-display: block;
+}
+
+@font-face {
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 800;
+  src: url('/fonts/Manrope/Manrope-ExtraBold.woff2') format('woff2');
+  font-display: block;
+}
+
+/* Manrope font family and weights - End */
