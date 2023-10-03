@@ -97,9 +97,11 @@ export default function Essentials({ slidesPerView }: { slidesPerView: number })
                       <p className="md:text-display-s lg:text-display-s py-2 font-semibold">
                         {essential.description}
                       </p>
-                      <div style={{ position: 'absolute', bottom: '0', right: '0' }}>
-                        <Image src={essential.image} alt="" width={0} height={0} fill={true} />
-                      </div>
+                      {essential.image && (
+                        <div className="absolute bottom-2 right-2">
+                          <Image src={essential.image} alt="" width={60} height={60} fill={false} />
+                        </div>
+                      )}
                     </div>
 
                     <div
