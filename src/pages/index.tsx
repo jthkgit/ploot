@@ -273,7 +273,8 @@ export default function Home(): JSX.Element {
           <div className="top-2 grid grid-cols-1 justify-between gap-4 lg:grid-cols-2">
             <div>
               <h3 className="mt-8 font-heading text-display-sm font-semibold text-primary-500 lg:text-display-lg">
-                We're here to help!
+                We&apos;re here
+                <br /> to help!
               </h3>
               <div className="mt-4 flex space-x-2">
                 <span className="flex w-auto flex-row items-center rounded-lg bg-[#F4F8F9] px-4 py-2 font-sans text-xs font-semibold lg:px-6 lg:py-2 lg:text-sm ">
