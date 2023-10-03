@@ -28,8 +28,20 @@ const essentials: Array<Props> = [
   },
   {
     id: uniqueId(),
-    title: 'Instant Free Card Lock',
-    description: 'Lost Card?',
+    title: 'Instant Card Lock',
+    description: 'Lost Card? Instantly freeze cards remotely for safety.',
+    image: '',
+  },
+  {
+    id: uniqueId(),
+    title: 'Recurring Allowance',
+    description: 'Set it and forget it.',
+    image: '',
+  },
+  {
+    id: uniqueId(),
+    title: 'Comprehensive Reports',
+    description: 'Analyse, budget and save accordingly for the whole family.',
     image: '',
   },
 ]

@@ -14,7 +14,7 @@ export default function Faq() {
         <div key={index} className="relative mb-4">
           <div
             onClick={() => toggleDropdown(index)}
-            className={`w-full rounded-xl bg-neutral-500 px-4 py-4 text-left text-sm font-medium text-primary-500 hover:bg-neutral-600  lg:text-lg${
+            className={`w-full rounded-xl bg-neutral-500 px-4 py-4 text-left text-sm font-medium text-primary-500 hover:bg-accent-1-500 hover:text-white  lg:text-lg${
               openDropdown === index ? 'bg-neutral-500' : ''
             }`}
           >

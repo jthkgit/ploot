@@ -57,7 +57,7 @@ export default function Home(): JSX.Element {
             We work with the best to provide you security and accessibility
           </p>
           <div className="flex items-center justify-center py-8  text-accent-1-500">
-            <Image className="px-2" src="/svg/paymentology.svg" alt="" width="170" height="29" />
+            <Image className="px-2" src="/svg/mc_logo.svg" alt="" width="100" height="29" />
             <Image className="px-2" src="/svg/UnionPay_logo 1.svg" alt="" width="63" height="39" />
             <Image
               className="px-2"
@@ -97,8 +97,8 @@ export default function Home(): JSX.Element {
                 src="/svg/stay.svg"
                 alt="Discover promotions and discounts in your area"
                 className="mx-auto"
-                width={112}
-                height={112}
+                width={150}
+                height={150}
               />
               <p className="mt-4 text-center text-sm font-medium text-primary-500 lg:mt-8 lg:text-lg">
                 Discover promotions and discounts in your area
@@ -109,8 +109,8 @@ export default function Home(): JSX.Element {
                 src="/svg/discover.svg"
                 alt="Connect and learn from other families"
                 className="mx-auto"
-                width={112}
-                height={112}
+                width={150}
+                height={150}
               />
               <p className="mt-4 text-center text-sm font-medium text-primary-500 lg:mt-8 lg:text-lg">
                 Connect and learn from other families
@@ -121,8 +121,8 @@ export default function Home(): JSX.Element {
                 src="/svg/connect.svg"
                 alt="Stay in the know with what children want"
                 className="mx-auto"
-                width={112}
-                height={112}
+                width={150}
+                height={150}
               />
               <p className="mt-4 text-center text-sm font-medium text-primary-500 lg:mt-8 lg:text-lg">
                 Stay in the know with what children want
@@ -273,8 +273,7 @@ export default function Home(): JSX.Element {
           <div className="top-2 grid grid-cols-1 justify-between gap-4 lg:grid-cols-2">
             <div>
               <h3 className="mt-8 font-heading text-display-sm font-semibold text-primary-500 lg:text-display-lg">
-                What would you like
-                <br /> to know about ploot?
+                We're here to help!
               </h3>
               <div className="mt-4 flex space-x-2">
                 <span className="flex w-auto flex-row items-center rounded-lg bg-[#F4F8F9] px-4 py-2 font-sans text-xs font-semibold lg:px-6 lg:py-2 lg:text-sm ">
