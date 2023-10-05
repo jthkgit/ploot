@@ -95,37 +95,37 @@ export default function Home(): JSX.Element {
             <div className="rounded-2xl bg-neutral-500 p-8">
               <Image
                 src="/svg/stay.svg"
-                alt="Discover promotions and discounts in your area"
+                alt="Discover promotions and discounts in your area and interact directly with vendors"
                 className="mx-auto"
                 width={150}
                 height={150}
               />
               <p className="mt-4 text-center text-sm font-medium text-primary-500 lg:mt-8 lg:text-lg">
-                Discover promotions and discounts in your area
+                Discover promotions and discounts in your area and interact directly with vendors
               </p>
             </div>
             <div className="rounded-2xl bg-neutral-500 p-8">
               <Image
                 src="/svg/discover.svg"
-                alt="Connect and learn from other families"
+                alt="Connect and learn from other families based on their experience and reviews"
                 className="mx-auto"
                 width={150}
                 height={150}
               />
               <p className="mt-4 text-center text-sm font-medium text-primary-500 lg:mt-8 lg:text-lg">
-                Connect and learn from other families
+                Connect and learn from other families based on their experience and reviews
               </p>
             </div>
             <div className="rounded-2xl bg-neutral-500 p-8">
               <Image
                 src="/svg/connect.svg"
-                alt="Stay in the know with what children want"
+                alt="Stay in the know with what children want from trending vendors"
                 className="mx-auto"
                 width={150}
                 height={150}
               />
               <p className="mt-4 text-center text-sm font-medium text-primary-500 lg:mt-8 lg:text-lg">
-                Stay in the know with what children want
+                Stay in the know with what children want from trending vendors
               </p>
             </div>
           </div>

@@ -4,11 +4,12 @@ export default function Pricing() {
     {
       title: 'Basic',
 
-      price: 'Free',
+      // price: 'Free',
       description: (
         <span>
           Our <strong>Base</strong> plan for families and children to learn financial literacy
-          through fun activities and parental controls.
+          through fun activities, rewards system, money missions, payment controls and an
+          interactive parental hub.
         </span>
       ),
     },
@@ -26,11 +27,12 @@ export default function Pricing() {
     {
       title: 'Ploot+',
 
-      price: 'TBD',
+      // price: 'TBD',
       description: (
         <span>
-          <strong>Ploot+</strong> plan offers premium benefits such as cashback rewards, financial
-          coaching, and investment options for families and children to reach their financial goals.
+          <strong>Ploot+</strong> plan offers full features including unlimited access to payment
+          controls, rewards system and parental hub, giving the full experience to families and
+          children to reach their financial goals.
         </span>
       ),
     },
