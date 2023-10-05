@@ -60,9 +60,9 @@ export default function Pricing() {
               <h2 className="text-lg font-semibold text-primary-500 group-hover:text-white">
                 {plan.title}
               </h2>
-              <p className="text-sm font-medium text-primary-500 group-hover:text-white">
+              {/* <p className="text-sm font-medium text-primary-500 group-hover:text-white">
                 {plan.price}
-              </p>
+              </p> */}
               <p className="mt-2 text-sm font-medium text-primary-500 group-hover:text-white">
                 {plan.description}
               </p>
