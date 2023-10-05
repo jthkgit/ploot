@@ -91,7 +91,11 @@ export default function Footer() {
 
       {/*Back*/}
 
-      <div className="absolute inset-0 top-1/2 z-0 h-48 bg-[#124944] lg:h-96"></div>
+      <div className="absolute inset-0 top-1/2 z-0 h-48 bg-[#124944] lg:h-96">
+        <p className="relative ml-10 mt-10 inline-block align-middle text-white">
+          &copy; 2023 Ploot Global Limited. All Rights Reserved.
+        </p>
+      </div>
     </section>
   )
 }
